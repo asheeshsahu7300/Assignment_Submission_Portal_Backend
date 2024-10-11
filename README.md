@@ -123,6 +123,32 @@ Create an assignment submission portal that supports users and admins, where use
      - Status: `200 OK`
      - Body: `{ "message": "Assignment rejected" }`
 
+## Installation and Running the Application
+
+### Prerequisites
+- Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+- Optionally, install [MongoDB](https://www.mongodb.com/try/download/community) if you're using it as your database.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
+   ```
+
+2. Install the necessary packages:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+1. Start the server:
+   ```bash
+   npm run dev
+   ```
+
+2. By default, the server runs on `http://localhost:3000`. You can change the port in the configuration file if needed.
+
 ## Notes
 - Ensure to handle authentication and authorization for both user and admin endpoints.
 - Implement appropriate error handling for all endpoints.

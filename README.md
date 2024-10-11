@@ -147,7 +147,7 @@ Create an assignment submission portal that supports users and admins, where use
    npm run dev
    ```
 
-2. By default, the server runs on `http://localhost:3000`. You can change the port in the configuration file if needed.
+2. By default, the server runs on `http://localhost:5000`. You can change the port in the configuration file if needed.
 
 ## Notes
 - Ensure to handle authentication and authorization for both user and admin endpoints.
